@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #513761;
+    color: whitesmoke;
+  }
+
+/*menu locadora*/
+
+li {
+    display: flex;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(106, 63, 105);
+    padding: 10px;
+    border: #513761;
+    margin: 0px;
+    height: 70px;
+    align-items: center;
+}
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+.menu-container > div {
+    margin: 15px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+
+.menu li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menuimg {
+    display: inline;
+    width: 250px;
+
+}
+.menu li {
+    display: block;
+    color: whitesmoke;
+
+}
+
+/*Efeito de salto do menu locadora*/
+.menu li a:hover {
+    font-size: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* Texto pessoal */
+.container div > p {
+    font-size: 25px;
+    margin: 50px;
+    text-align: justify;
+
+}
+
+/*Foto pessoal*/
+.container img {
+    width: 350px;
+    margin: 70px;
+}
+
+/*Icones redes sociais*/
+
+div img {
+
+    display: inline-block;
+    width: 50px;
+    justify-content: center;
+    margin: 2px 2px;
+    padding: 20px;
+}
+
+div {
+    text-align: center;
+  }
+
+  /* menu */
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+  }
+
+  
